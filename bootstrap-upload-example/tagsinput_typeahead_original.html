@@ -1,0 +1,54 @@
+<html>
+    <head>
+            
+            <link rel="stylesheet" href="./css/basic.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap-theme.min.css">
+            <link rel="stylesheet" href="./css/bootstrap-tagsinput.css">
+               
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+            <script src="./js/bootstrap-tagsinput.min.js"></script>
+        </head>
+    <body>
+
+        <div class="all">
+            <div class="inputboxContainer">
+                <h3>Insert City</h3>
+                <input type=text hint="input text" class="inputbox"/>
+            </div>
+            <h3>Value</h3>
+            <div class="listing">
+                <pre class="val"><code data-language="javascript"> </code></pre>
+            </div>
+            
+            <div>
+                <h3>JSON CITY LIST</h3>
+                <p>
+                        [<br> 
+                        { "value": 1 , "text": "Amsterdam"   , "continent": "Europe"  },<br>
+                        { "value": 2 , "text": "London"      , "continent": "Europe"    },<br>
+                        { "value": 3 , "text": "Paris"       , "continent": "Europe"    },<br>
+                        { "value": 4 , "text": "Washington"  , "continent": "America"   },<br>
+                        { "value": 5 , "text": "Mexico City" , "continent": "America"   },<br>
+                        { "value": 6 , "text": "Buenos Aires", "continent": "America"   },<br>
+                        { "value": 7 , "text": "Sydney"      , "continent": "Australia" },<br>
+                        { "value": 8 , "text": "Wellington"  , "continent": "Australia" },<br>
+                        { "value": 9 , "text": "Canberra"    , "continent": "Australia" },<br>
+                        { "value": 10, "text": "Beijing"     , "continent": "Asia"      },<br>
+                        { "value": 11, "text": "New Delhi"   , "continent": "Asia"      },<br>
+                        { "value": 12, "text": "Kathmandu"   , "continent": "Asia"      },<br>
+                        { "value": 13, "text": "Cairo"       , "continent": "Africa"    },<br>
+                        { "value": 14, "text": "Cape Town"   , "continent": "Africa"    },<br>
+                        { "value": 15, "text": "Kinshasa"    , "continent": "Africa"    }<br>
+                      ]
+
+                </p>
+            </div>
+        </div>
+        
+        <script src="./js/event.js"></script>
+        <script src="./js/tagsinput_typeahead_original.js"></script>
+    </body>
+</html>
