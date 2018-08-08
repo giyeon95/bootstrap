@@ -1,0 +1,14 @@
+[
+    {"col":"1", "displayName":"Chimney Hill Elementary","saveName": "chimney-hill-elementary", "category":"school","latitude":"49.138458", "longitude":"-122.814114","fullAddress":"14755 74 Ave, Surrey, BC V3S 8Y8"},
+    {"col":"2","displayName":"M.B Stanford Elementary","saveName": "mb-stanford-elementary", "category":"school","latitude":"49.136041", "longitude":"-122.825321","fullAddress":"7318 143 St, Surrey, BC V3W 7T6"},
+    {"col":"3","displayName":"Frank Hurt Secondary","saveName": "frank-hurt-secondary", "category":"school","latitude":"49.142457", "longitude":"-122.837137","fullAddress":"13940 77 Ave, Surrey, BC V3W 5Z4"},
+    {"col":"4","displayName":"Guru Angad Dev Elementary","saveName": "guru-angad-dev-elementary", "category":"school","latitude":"49.143317", "longitude":"-122.848387","fullAddress":"13479 77 Ave, Surrey, BC V3W 6Y3"},
+    {"col":"5","displayName":"Fleetwood Park Secondary School","saveName": "fleetwood-park-secondary-school", "category":"school","latitude":"49.148045", "longitude":"-122.789093","fullAddress":"7940 156 St, Surrey, BC V3S 3R3"},
+    {"col":"6","displayName":"Enver Creek Secondary","saveName": "enver-creek-secondary", "category":"school","latitude":"49.157043", "longitude":"-122.820282","fullAddress":"14505 84 Ave, Surrey, BC V3S 8X2"},
+    {"col":"7","displayName":"British Manor Park","saveName": "british-manor-park", "category":"park","latitude":"49.145879", "longitude":"-122.822395","fullAddress":"14440 79 Ave, Surrey, BC V3S 8C1"},
+    {"col":"8","displayName":"Chimney Heights Park","saveName": "chimney-heights-park", "category":"park","latitude":"49.138680", "longitude":"-122.815757","fullAddress":"7200 146b St, Surrey, BC V3S 8Y7"},
+    {"col":"9","displayName":"Goodrich Place Park","saveName": "goodrich-place-park", "category":"park","latitude":"49.142116", "longitude":"-122.830699","fullAddress":"7651 Goodrich Pl, Surrey, BC V3W 6K5"},
+    {"col":"10","displayName":"Frank Hurt Park","saveName": "frank-hurt-park", "category":"park","latitude":"49.141027", "longitude":"-122.839867","fullAddress":"13828 77 Avenue, 138 St, Surrey, BC V3W 8J5"},
+    {"col":"11","displayName":"Enver Creek Park","saveName": "enver-creek-park", "category":"park","latitude":"49.151601", "longitude":"-122.817405","fullAddress":"8170 146 St, Surrey, BC V3S 9Y5"},
+    {"col":"12","displayName":"T.E Scott Park","saveName": "te-scott-park", "category":"park","latitude":"49.130421", "longitude":"-122.811924","fullAddress":"7014 148 St, Surrey, BC V3S 0Y9"}
+]
