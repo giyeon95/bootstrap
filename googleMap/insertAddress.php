@@ -20,10 +20,33 @@
         $longitude=isset($_POST['longitude']) ? $_POST['longitude'] : '';   
         $fullAddress=isset($_POST['fullAddress']) ? $_POST['fullAddress'] : '';   
 
-        $sql = "insert into addinfo (displayName, saveName, category, latitude, longitude, fullAddress) 
-            values ('$displayName','$saveName','$category', '$latitude','$longitude','$fullAddress')";
-        mysqli_query($conn,$sql);
-        mysqli_close($conn);
+        $sql = "select * from addinfo where fullAddress='$fullAddress'";
+        $result = mysqli_query($conn,$sql);
+        $exist = mysqli_num_rows($result);
+        echo $exist;
+        if($exist){
+            echo "<script>
+                    window.alert('This address already exists.');
+                    history.go(-1);
+                </script>";
+                
+        	exit;
+        } else {
+
+            $sql = "insert into addinfo (displayName, saveName, category, latitude, longitude, fullAddress) 
+                values ('$displayName','$saveName','$category', '$latitude','$longitude','$fullAddress')";
+            mysqli_query($conn,$sql);
+            mysqli_close($conn);
+
+                // echo $displayName;
+                // echo $fullAddress;
+                echo "<script>
+                window.alert('Database insert Success!');
+                history.go(-1);
+                </script>";
+            
+            exit;
+        }
     ?>
 </body>
 </html>
